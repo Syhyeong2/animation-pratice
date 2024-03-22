@@ -72,8 +72,8 @@ function App() {
           key={"1"}
           layoutId={"1"}
           variants={boxVar}
-          whileHover="hover"
           animate="animation"
+          whileHover="hover"
         />
         <Box>{clicked ? <Circle layoutId="circle" /> : null}</Box>
         <Box>{!clicked ? <Circle layoutId="circle" /> : null}</Box>
@@ -83,8 +83,8 @@ function App() {
           key={"2"}
           layoutId={"2"}
           variants={boxVar}
-          whileHover="hover"
           animate="animation"
+          whileHover="hover"
         />
       </Grid>
       <button onClick={toggleClicked}>Switch</button>
